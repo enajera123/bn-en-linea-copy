@@ -39,8 +39,8 @@ function Home() {
                         <div className='flex flex-col gap-3 items-center justify-center h-full w-[290px]'>
                             <img width="30" src="https://auth.bncr.fi.cr/adfs/portal/images/bncr/firma.png" alt="Banco Nacional de Costa Rica" />
                             <input value={identification} onChange={(e) => setIdentification(e.target.value)} placeholder='Identificación' type="text" className='usrInput rounded placeholder-[#666666]' />
-                            <input value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Contraseña' type="text" className='usrInput rounded placeholder-[#666666]' />
-                            <button onClick={handleSubmit} className='submitButton'>Iniciar Sesión</button>
+                            <input value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Contraseña' type="password" className='usrInput rounded placeholder-[#666666]' />
+                            <button onClick={handleSubmit} className='submitButton rounded-2xl'>Iniciar Sesión</button>
                             <div>
                                 <div className='dot'></div>
                                 <a className='text-[#2d549f] font-bold' href="#">¿Olvidaste tu contraseña?</a>

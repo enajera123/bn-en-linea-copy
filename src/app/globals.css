@@ -43,11 +43,16 @@ body {
     font-size: 22px;
 }
 
+.submitButton:hover {
+    background: #2d549f;
+    cursor: pointer;
+}
+
 .dot {
-  margin-bottom: -5px;
-  height: 25px;
-  width: 25px;
-  background-color: #00589E;
-  border-radius: 50%;
-  display: inline-block;
+    margin-bottom: -5px;
+    height: 25px;
+    width: 25px;
+    background-color: #00589E;
+    border-radius: 50%;
+    display: inline-block;
 }
